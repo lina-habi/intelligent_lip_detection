@@ -1,7 +1,6 @@
-
 # Image and video processing
 numpy==1.26.4
-opencv-python==4.10.0.84
+opencv-contrib-python==4.11.0.86
 
 # Face and lip landmarks
 mediapipe==0.10.21
@@ -11,13 +10,9 @@ matplotlib==3.9.2
 pandas==2.2.3
 scikit-learn
 
-# Deep learning
-torch
-torchvision
-
 # Jupyter notebooks
 jupyter
 ipykernel
 
-# Pretrained model downloads (if needed)
+# Pretrained model downloads
 huggingface_hub>=0.26.0
