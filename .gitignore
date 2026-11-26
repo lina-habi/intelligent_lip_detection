@@ -1,22 +1,21 @@
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 
-# Jupyter temporary files
+# Jupyter
 .ipynb_checkpoints/
 
-# VS Code personal settings
+# VS Code
 .vscode/
 
-# Dataset and video files
+# Private data and videos
 data/datasets/
 data/processed/
 data/sample_videos/
-
 *.mp4
 *.avi
 *.mov
@@ -26,5 +25,5 @@ models/*.pth
 models/*.pt
 models/*.onnx
 
-# Temporary outputs
+# Temporary results
 results/temp/
